@@ -24,26 +24,27 @@ The `Basket` class implements the `BasketInterface` and provides methods to add 
 
 ### Project Structure
 
-acme-widget-co/
-├── src/
-│ ├── Basket.php
-│ ├── DeliveryCostStrategy.php
-│ ├── OfferStrategy.php
-│ ├── Product.php
-│ └── interfaces/
-│ ├── BasketInterface.php
-│ ├── DeliveryCostStrategyInterface.php
-│ ├── OfferStrategyInterface.php
-├── tests/
-│ ├── BasketTest.php
-│ ├── DeliveryCostStrategyTest.php
-│ └── OfferStrategyTest.php
-├── docker-compose.yml
+.
 ├── Dockerfile
+├── README.md
 ├── composer.json
 ├── composer.lock
+├── docker-compose.yml
+├── phpstan.neon
 ├── phpunit.xml
-└── README.md
+├── src
+│   ├── Basket.php
+│   ├── DeliveryCostStrategy.php
+│   ├── OfferStrategy.php
+│   ├── Product.php
+│   └── interfaces
+│       ├── BasketInterface.php
+│       ├── DeliveryCostStrategyInterface.php
+│       └── OfferStrategyInterface.php
+└── tests
+    ├── BasketTest.php
+    ├── DeliveryCostStrategyTest.php
+    └── OfferStrategyTest.php
 
 
 ### Usage
