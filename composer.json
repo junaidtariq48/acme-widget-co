@@ -3,7 +3,7 @@
   "description": "Acme Widget Co Sales System",
   "autoload": {
     "psr-4": {
-      "Junaidtariq\\AcmeWidgetCo\\": "src/"
+      "AcmeWidgetCo\\": "src/"
     }
   },
   "authors": [
