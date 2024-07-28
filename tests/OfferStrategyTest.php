@@ -45,7 +45,6 @@ class OfferStrategyTest extends TestCase
         $price = 32.95;
         $quantity = 4; // Even quantity
 
-        // (32.95 + 16.475) * 2 = 98.85
         $expectedTotal = 2 * ($price + $price / 2);
 
         $this->assertEquals($expectedTotal, $this->offerStrategy->apply($productCode, $quantity, $price));
