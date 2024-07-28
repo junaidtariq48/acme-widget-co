@@ -68,7 +68,7 @@ docker-compose run app vendor/bin/phpunit
 #### Running Static Analysis
 To run PHPStan:
 ```
-docker-compose run app vendor/bin/phpstan analyse
+docker-compose run app vendor/bin/phpstan analyse -c phpstan.neon
 ```
 
 #### Assumptions
